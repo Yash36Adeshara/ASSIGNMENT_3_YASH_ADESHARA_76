@@ -117,7 +117,46 @@ h1 {
   font-size: 0.70cqw;
   text-transform: uppercase;
 }
+/* Studio logos at the bottom-left of the poster. */
+.footer-logos-left {
+  position: absolute;
+  left: 6.7%;
+  bottom: 4.35%;
+  width: 23%;
+  display: flex;
+  align-items: center;
+  gap: 0.8cqw;
+  z-index: 2;
+}
 
+.footer-logos-left img {
+  display: block;
+  height: auto;
+  min-width: 0;
+}
+
+.logo-legendary {
+  width: 47.5%;
+}
+
+.logo-dc {
+  width: 14.5%;
+}
+
+.logo-syncopy {
+  width: 32%;
+}
+
+/* Warner Bros. branding at the bottom-right. */
+.footer-logo-warner {
+  position: absolute;
+  right: 6.7%;
+  bottom: 4.05%;
+  width: 11.85%;
+  height: auto;
+  display: block;
+  z-index: 2;
+}
 /*Supporting links do not move the poster text. */
 .movie-links {
   display: flex;
