@@ -14,7 +14,7 @@ main { max-width: 1080px; margin: 0 auto; }
   width: 100%;
   aspect-ratio: 1080 / 1600;
   overflow: hidden;
-  background: #061522 url("../images/poster-background.jpg") center / 100% 100% no-repeat;
+  background: #061522 url("poster-background.jpg") center / 100% 100% no-repeat;
 }
 .poster p, .poster h1 { margin: 0; }
 .poster-heading {
